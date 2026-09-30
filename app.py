@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as pd
+from pandas import DataFrame
 from math import log, ceil
 
 st.set_page_config(page_title="Калькулятор відсотків", page_icon="📈")
