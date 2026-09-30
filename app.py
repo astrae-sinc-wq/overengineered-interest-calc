@@ -35,6 +35,6 @@ if st.button("Розрахувати"):
         else:
             current += start_sum * r
 
-    df = pd.DataFrame(data)
+    df = DataFrame(data)
     st.line_chart(df.set_index("Рік"))
 
