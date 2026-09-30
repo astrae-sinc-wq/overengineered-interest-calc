@@ -23,7 +23,7 @@ if st.button("Розрахувати"):
         years_float = (target_sum - start_sum) / (start_sum * r)
 
     years = ceil(years_float)
-    st.success(f"Знадобится років: **{years}**(Точне значення: **{years_float:.2f}**)")
+    st.success(f"Знадобится років: **{years}** (Точне значення: **{years_float:.2f}**)")
 
     data = []
     current = start_sum
