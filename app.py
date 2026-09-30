@@ -16,7 +16,7 @@ with col3:
     rate = st.number_input("Річний відсоток (%)", min_value = 0.1, value = 10.0, step = 0.5)
 
 if st.button("Розрахувати"):
-    r = rate
+    r = rate / 100
     if "Складний відсоток" in mode:
         years_float = log(target_sum / start_sum) / log(1 + r)
     else:
